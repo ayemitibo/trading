@@ -1,9 +1,6 @@
 body {
-  
   font-size: 12px;
-  font-family: -apple-system, Lato, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: -apple-system, Lato, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -11,11 +8,32 @@ body {
 
 * {
   margin: 0;
-  padding: 0; 
+  padding: 0;
   box-sizing: border-box;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.image-width {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.align-center {
+  margin: 0 auto;
+}
+
+.image-width img {
+  width: 100%;
+}
+.bg-color {
+  background-color: #efefef;
+}
+.h3col {
+  font-size: 1.75rem;
+  letter-spacing: 1.5px;
+  font-family: cursive;
+  text-transform: capitalize;
 }
