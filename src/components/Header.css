@@ -1,0 +1,39 @@
+#header_action_button {
+    font-weight: 400;
+    border-color: #03a84e;
+    color: #FFF;
+    background: #03a84e;
+    transition: all .5s;
+    padding: 0 13px 0 15px;
+    border-radius: 5px 0 0 5px;
+    border-width: 1px 0 1px 1px;
+    position: relative;
+    border-style: solid;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #1b1b1b
+}
+
+.nav-link:hover {
+    color:#03a84e;
+    border-bottom: 1px solid #03a84e;
+   
+}
+
+#header_action_button::after{
+    content: "";
+    width: 22px;
+    background: #03a84e;
+    height: 19px;
+    border-width: 1px 1px 0 0;
+    border-style: solid;
+    display: block;
+    right: -10px;
+    top: 1px;
+    position: absolute;
+    transform: rotate(45deg);
+    border-radius: 5px 0 0 5px;
+}
